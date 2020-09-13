@@ -1,0 +1,148 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: url("/images/background.jpg") 30% 30%/cover fixed no-repeat; 
+    box-sizing: border-box;
+}
+h1{
+    color:black;
+    text-align: center;
+    margin-bottom: 0;
+}
+.midbody #footer{
+    align-self: flex-end;
+    height: 5vh;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    font-size: 1.6vh;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color:rgba(128, 128, 128, 0.753);
+    color: black;
+}
+.midbody #loginform{
+    align-self: right;
+    font-size: 0.8rem;
+    margin: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-style: solid;
+    border-width: 0.3px;
+    text-align: center;
+    padding: 1.5%;
+    background-color: rgba(0,0,0,0.3);
+    border-radius: 0.8rem;
+    border-color: gray;
+    text-decoration-color: white;
+}
+.midbody #loginform input{
+    width: 10vw;
+}
+hr{
+    height: 1.5px;
+    margin-top: 1vh;
+    margin-left: 6vw;
+    margin-right: 6vw; 
+    border-width:0;
+    color:gray;
+    background-color: gray;
+    margin-bottom: 1px;
+}
+.logo{
+    height: 50px;
+    margin-bottom: 0vh;
+}
+.loginform input{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: black;
+    width: 8rem;
+    font-size: 1rem;
+    color: white;
+}
+#submit{
+    color:black;
+}
+.loginform label{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1rem;
+    color: black;
+}
+.nav{
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    margin: auto;
+}
+.nav a{
+    text-decoration: none;
+    color: black;
+    margin: 2vh;
+}
+.planner{
+    width: 30vh;
+    border: solid;
+    text-align: center;
+    height: 200px;
+    float: left;
+    margin: 40px;
+    margin-left: 350px;
+    
+}
+.nav :hover{
+    color:gray;
+}
+.midbody{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-color: red;
+}
+ul
+{
+    font-family: Arial, Verdana;
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+ul li
+{
+    display: block;
+    position: relative;
+    float: left;
+}
+
+li ul
+{
+    display: none;
+}
+
+ul li a 
+{
+    display: block;
+    text-decoration: none;
+    color: #ffffff;
+    border-top: 1px solid #ffffff;
+    padding: 5px 15px 5px 15px;
+    background: #2C5463;
+    margin-left: 1px;
+    white-space: nowrap;
+}
+
+ul li a:hover 
+{
+    background: #617F8A;
+}
+li:hover ul 
+{
+    display: block;
+    position: absolute;
+}
+
+li:hover li
+{
+    float: none;
+    font-size: 11px;
+}
