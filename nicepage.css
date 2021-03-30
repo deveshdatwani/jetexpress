@@ -12256,7 +12256,7 @@ section.u-image,
 }
 @supports (position: sticky) {
   .u-sticky {
-    position: relative;
+    position: sticky;
   }
 }
 @supports (position: -webkit-sticky) {
