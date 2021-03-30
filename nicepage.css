@@ -8348,7 +8348,7 @@ ul.u-text li:last-child {
 .u-image,
 .u-background-effect-image,
 .u-video-poster {
-  object-fit: cover;
+  object-fit: contain;
   display: block;
   vertical-align: middle;
   background-size: cover;
@@ -12256,7 +12256,7 @@ section.u-image,
 }
 @supports (position: sticky) {
   .u-sticky {
-    position: sticky;
+    position: relative;
   }
 }
 @supports (position: -webkit-sticky) {
@@ -19248,7 +19248,7 @@ a.u-button-style.u-border-19 {
 .u-separator-20:after,
 .u-text.u-border-20,
 a.u-button-style.u-border-20 {
-  border-width: 20px;
+  border-width: 0px;
 }
 .u-shape-svg.u-border-20 {
   stroke-width: 20px;
@@ -32358,8 +32358,8 @@ a.u-link.u-text-hover-grey-90:hover {
 }
 
 .u-header .u-logo-image-1 {
-  max-width: 64px;
-  max-height: 64px;
+  max-width: 200px;
+  max-height: 200px;
 }
 
 .u-header .u-menu-1 {
