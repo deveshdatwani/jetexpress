@@ -12261,7 +12261,7 @@ section.u-image,
 }
 @supports (position: -webkit-sticky) {
   .u-sticky {
-    position: -webkit-sticky;
+    position: relative;
   }
 }
 .u-overlap .u-header {
