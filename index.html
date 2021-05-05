@@ -7,13 +7,15 @@
     <title>Jet Express</title>
 
     <style>
-
+        .brand{
+            margin-top: 1rem;
+        }
     </style>
 
     <link rel="stylesheet" href="css/bootstrap.css">
 </head>
 <body>
-    <div class="container-md">
+    <div class="container-md brand">
         <div class="row">
             <div class="col-sm-4">
                 <div class="display-5">
@@ -21,18 +23,32 @@
                 </div>
             </div>
             <div class="col-sm-8" style="padding: 0.8rem;">
-               
+                <div class="container-md">
+                    <ul class="list-inline">
+                        <li class="list-inline-item"><p class="display-9"><a href="#home" class="nav-link">Home</a></p></li>
+                        <li class="list-inline-item"><p class="display-9"><a href="" class="nav-link">About Us</a></p></li>
+                        <li class="list-inline-item"><p class="display-9"><a href="" class="nav-link">Our Expertise</a></p></li>
+                        <li class="list-inline-item"><p class="display-9"><a href="" class="nav-link">Contact Us</a></p></li>
+                    </ul>
+                </div>
             </div>
         </div>
     </div>
     <div class="container-md">
-        <div class="row" style="height: 25rem; overflow: hidden; margin-top: 1rem;">
+        <div class="row" style="height: 25rem; overflow: hidden;">
             <video autoplay loop autobuffer muted playsinline>
                 <source src="assets/Container Ship - 23215.mp4" type="video/mp4" />
               </video>
         </div>
     </div>
-    
+    <br><br><br><br><br><br><br><br><br><br>
+    <div class="container" style="text-align: center;" id="home">
+        <div class="row">
+            <div class="col-sm">
+                Hello
+            </div>
+        </div>
+    </div>
     <script src="https://unpkg.com/@popperjs/core@2.4.0/dist/umd/popper.min.js"></script>
     <script src="js/bootstrap.js"></script>
 </body>
