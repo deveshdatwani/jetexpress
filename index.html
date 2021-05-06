@@ -5,71 +5,55 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jet Express</title>
-
+    <!-- <link rel="stylesheet" href="styles/styles.css"> --> 
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
     <style>
-        .brand{
-            margin-top: 1rem;
+        a{
+            color: #68BB59;
+        }
+        .nav-link{
+           transition: 0.5s;
+        }
+        .nav-link:hover{
+            color: red;
+            font-size: 2rem;
+        }
+        .video{
+            height: 25rem;
+            width: 100%;
+            overflow: hidden;
         }
     </style>
-
-    <link rel="stylesheet" href="css/bootstrap.css">
 </head>
 <body>
-    <div class="container-md brand">
-        <div class="row">
-            <div class="col-sm-4">
-                <div class="display-5">
-                    Jet Express
-                </div>
-            </div>
-            <div class="col-sm-8" style="padding: 0.8rem;">
-                <div class="container-md">
-                    <ul class="list-inline">
-                        <li class="list-inline-item"><p class="display-9"><a href="#home" class="nav-link">Home</a></p></li>
-                        <li class="list-inline-item"><p class="display-9"><a href="" class="nav-link">About Us</a></p></li>
-                        <li class="list-inline-item"><p class="display-9"><a href="" class="nav-link">Our Expertise</a></p></li>
-                        <li class="list-inline-item"><p class="display-9"><a href="" class="nav-link">Contact Us</a></p></li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="container-md full-width">
-        <div class="row" style="height: 25rem; overflow: hidden;">
-            <video autoplay loop autobuffer muted playsinline>
-                <source src="assets/Container Ship - 23215.mp4" type="video/mp4" />
-            </video>
-        </div>
-    </div>
-    <div class="container" style="text-align: center;" id="home">
-        <div class="row">
+   <div class="container">
+       <div class="row">
+            <div class="col-sm"><h2 class="display-6">Jet Express</h2></div>
             <div class="col-sm">
-                Hello
+                <nav class="navbar navbar-expand-lg navbar-light ">
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarText">
+                        <ul class="navbar-nav mr-auto">
+                            <li class="nav-item active"><a class="nav-link" href="#">About Us</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#">Our Services</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#">Our Expertise</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#">Contact Us</a></li>
+                        </ul>
+                    </div>
+                </nav>
             </div>
-        </div>
+       </div>
     </div>
-    <div class="container" style="text-align: center;" id="home">
-        <div class="row">
-            <div class="col-sm">
-                About us
-            </div>
-        </div>
+    <div class="video">
+        <video src="assets/Container Ship - 23215.mp4" autoplay loop ></video>
     </div>
-    <div class="container" style="text-align: center;" id="home">
-        <div class="row">
-            <div class="col-sm">
-                Our expertise
-            </div>
-        </div>
-    </div>
-    <div class="container" style="text-align: center;" id="home">
-        <div class="row">
-            <div class="col-sm">
-                Contact us
-            </div>
-        </div>
-    </div>
-    <script src="https://unpkg.com/@popperjs/core@2.4.0/dist/umd/popper.min.js"></script>
-    <script src="js/bootstrap.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
 </body>
 </html>
