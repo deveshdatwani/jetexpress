@@ -20,11 +20,6 @@
             color: red;
             font-size: 2rem;
         }
-        .video{
-            height: 25rem;
-            width: 100%;
-            overflow: hidden;
-        }
     </style>
 </head>
 <body>
@@ -48,11 +43,16 @@
             </div>
        </div>
     </div>
-    <div class="video">
-        <video autoplay loop autobuffer muted playsinline>
-            <source src="assets/Container Ship - 23215.mp4" type="video/mp4" />
-        </video>   
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12">
+                <video autoplay loop autobuffer muted playsinline>
+                    <source src="assets/Container Ship - 23215.mp4" type="video/mp4" height="100%" width="100%" style="overflow: ;">
+                </video>   
+            </div>
+        </div>
     </div>
+    
 
     <!-- JS scripts -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
